@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+
+}
+
+
+table {
+    /*電卓のサイズ*/
+    width: 300px;
+    height: 400px;
+    /*要素を中央に揃える*/
+    text-align: center;
+    
+}
+
+input {
+    /*ボタンサイズ*/
+    width: 300px;
+    height: 130px;
+    margin: 5px;
+    /*文字の詳細*/
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Comic Sans MS';
+    /*ボタンの詳細*/
+    background-color:#3c3b3b;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+input[type="text"][disabled]{
+    background: rgb(0, 0, 0);
+    cursor:not-allowed;
+}
+
+#result {
+    width: 1000px;
+    height: 150px;
+    text-align: right;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.initial {
+    font-size: 80px;
+    font-weight: 900;
+    font-family: 'Comic Sans MS';
+    color: #fff;
+}
+
+#num_excepting {
+    background-color: orange;
+}
+
+#num_excepting:hover {
+    background-color: rgb(0, 0, 0);
+}
+
